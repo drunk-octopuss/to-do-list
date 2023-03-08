@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Roboto');
+
+.app {
+  text-align: center;
+}
+
+body {
+  background-color: #3d3939;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+  background-color: #fefefe;
+  padding: 20px;
+  text-align: center;
+}
+
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  color: #12c2b9;
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+          3px 3px #0fe24f,
+				 1px 1px 0 #000;
+}
+
+h3 {
+  font-size: 22px;
+  color: rgb(226, 53, 215);
+  text-shadow: -1px 1px 0 #000,
+  1px 1px 0 #000,
+  2px 1px #3c7779,
+  1px 1px 0 #000;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px auto;
+  max-width: 1800px;
+  padding: 20px;
+}
+
+button {
+  background-color:#12c2b9;
+  border: none;
+  border-radius: 2px;
+  color: #000000;
+  font-size: 16px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color:rgb(226, 53, 215);
+  cursor: pointer;
+}
+
+.submit {
+  background-color:#12c2b9;
+  border: none;
+  border-radius: 2px;
+  color: #000000;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.submit:hover {
+  background-color:rgb(226, 53, 215);
+  cursor: pointer;
+}
+
+.input {
+  border: none;
+  border-radius: 2px;
+  color: #000000;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+}
